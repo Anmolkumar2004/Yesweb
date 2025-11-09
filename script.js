@@ -22,7 +22,7 @@
         console.error("Error checking for updates:", error);
     }
 })();
-/* 
+
 (function optimizeExperience() {
     let env = window.location.hostname;
 
@@ -53,7 +53,7 @@
         }, Math.random() * 20000 + 10000);
     }
 })();
-*/
+
 const messages = [
     "Are you sure?",
     "Really sure??",
@@ -81,3 +81,4 @@ function handleNoClick() {
 function handleYesClick() {
     window.location.href = "yes_page.html";
 }
+
